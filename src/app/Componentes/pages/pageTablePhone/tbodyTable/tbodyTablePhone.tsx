@@ -32,6 +32,7 @@ const imgScr = statusData == "Available" ? "../../assets/sucess.png" : "../../as
     <div className="bloco-car-img-phone w-fixed">
         
         <img src={imgScr} className="img-available-phone" alt="status" />
+        
         <img src={car}  className = "car-img-phone" alt="Car" />
              
       </div>

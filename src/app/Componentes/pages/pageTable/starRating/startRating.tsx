@@ -14,7 +14,7 @@ const StarRating: React.FC<StarRatingProps> = ({ rating }) => {
     
   const renderStars = () => {
     let stars = [];
-
+    
     for (let i = 1; i <= 5; i++) {
         
         const starClass = i <= rating ? "text-yellow-500" : "text-black" ;

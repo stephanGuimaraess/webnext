@@ -28,12 +28,14 @@ const statusBox = statusData === "Available" ? " bg-green-300 rounded-md pt-0.5 
 
 
 
+
  
   return (
     <tr>
       
       <td className="py-2 px-4 border-b font-weight-400 text-size-14 line-height-21 "><div className="flex items-center  py-px px-1">
-        <img src={car}  className = "car-img" alt="Car" />
+        
+        <img src={car}  className ="car-img" alt="Car" />
         <span className="ml-2 text-gray-900 ">{carData}</span>
         </div></td>
       <td className="py-2 px-4 border-b text-start font-weight-400 text-size-14 line-height-21 ">{reservationData}</td>
@@ -43,8 +45,7 @@ const statusBox = statusData === "Available" ? " bg-green-300 rounded-md pt-0.5 
       </td>
       <td className="py-2 px-12 border-b cursor-pointer ">
       &#8942;
-    </td>
-    
+    </td>    
     </tr>
   );
 };

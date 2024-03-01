@@ -16,5 +16,6 @@ const config: Config = {
     },
   },
   plugins: [],
+  base: "/webnext"
 };
 export default config;
